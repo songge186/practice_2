@@ -123,15 +123,10 @@
 
     </android.support.v7.widget.LinearLayoutCompat>
 	![](https://github.com/songge186/images/blob/master/74a05cc716a39cf10b7e62bcb16a8a7.png?raw=true)
+	
 	有限布局：
 	<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#000000"
-    tools:context=".Main2Activity">
+
 
     <Button
         android:id="@+id/button"
@@ -221,16 +216,12 @@
         android:background="#871F78"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="2dp" />
-</android.support.constraint.ConstraintLayout>
+	
+	
 运行截图：
 ！[]（https://github.com/songge186/images/blob/master/2f4d5f68a6d08542b44ddbe156bd23b.png?raw=true）
 表格布局：
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Main3Activity">
+
     <TableRow
         android:id="@+id/row1"
         android:layout_width="wrap_content"
@@ -354,5 +345,6 @@
             android:textColor="#FFFFFF"/>
 
     </TableRow>
+	
 	运行截图：
 	![](https://github.com/songge186/images/blob/master/df2bcb843ea5ab85dcaa1a4293d57ef.png?raw=true)
